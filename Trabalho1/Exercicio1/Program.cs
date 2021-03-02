@@ -70,6 +70,8 @@ namespace Exercicio1
             Gl.glColor3f(1.0f, 0.0f, 0.0f);
             Gl.glVertex2f(0.7f, 0.6f);
             Gl.glEnd();
+
+            Gl.glFlush();
         }
 
         static void Main(string[] args)
